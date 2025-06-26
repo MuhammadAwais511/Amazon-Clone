@@ -1,0 +1,521 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: border-box;
+}
+
+body {
+    background-color: #E3E6E6;
+}
+
+header {
+    font-size: 14px;
+}
+
+.navbar {
+    height: 70px;
+    width: 100%;
+    background-color: #0F1111;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.nav-logo {
+    height: 80px;
+    width: 135px;
+}
+
+.logo {
+    background-image: url("amazon-rebrand-2025_dezeen_2364_col_1-1-removebg-preview.png");
+    background-size: cover;
+    height: 120px;
+    width: 175px;
+    margin-top: -20px;
+    margin-left: -43px;   
+}
+
+.border {
+    border: 1.5px solid transparent;
+    transition: border 0.3s ease;
+}
+
+.border:hover {
+    border: 1.5px solid white;
+    cursor: pointer;
+}
+
+/* BOX TWO */
+
+.nav-address {
+    margin-left: 5px;
+}
+
+#paragraph-one {
+    font-size: 0.75rem;
+    color: #CCCCCC;
+    
+}
+
+#paragraph-two {
+    font-size: 1rem;
+    color: #FFFFFF;
+    margin-left: 2px;
+    padding-top: 0px;
+}
+
+.address-icon {
+    display: flex;
+    align-items: center;
+}
+
+
+/* BOX 3 */
+
+.nav-search {
+    margin-left: 15px;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: coral;
+    width: 850px;
+    height: 40px;
+    border-radius: 5px;
+}
+
+.nav-search:hover {
+    border: 2px solid orange;
+}
+
+.search-select {
+    width: 52px;
+    color: #0F1111;
+    background-color: #cccccc;
+    text-align: center;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border: none;
+    height: 40px;
+}
+
+.search-select:hover{
+    background-color: darkgrey;
+}
+
+.search-input {
+    height: 100%;
+    width: 100%;
+    font-size: 1rem;
+    padding-left: 10px;
+    border: none;
+}
+
+.search-icon {
+    width: 50px;
+    height: 40px;
+    background-color: #Febd68;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.4rem;
+    color: black;
+    border-top-right-radius: 5px ;
+    border-bottom-right-radius: 5px ;
+}
+
+.search-icon:hover {
+    background-color: orange;
+}
+
+/* BOX NO 4 */
+
+.paragraph-1st {
+    font-size: 12px;
+}
+
+.paragraph-2nd {
+    font-size: 12px;
+    font-weight: 800;
+    padding-top: 0px;
+}
+
+/* BOX NO 5 */
+
+.cart {
+    display: flex;
+    align-items: flex-end;
+}
+
+#cart-icon {
+    font-size: 23px;
+    color: white;
+}
+
+.cart-text {
+    font-size: 15px;
+    font-weight: 700;
+}
+
+/* NavBar Bottom */
+
+.panel {
+    background-color: #0F1111;
+    height: 40px;
+}
+
+.all {
+    font-size: 30px;
+}
+
+.All {
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+.paragraph-all {
+    font-size: 17px;
+    font-weight: 700;
+    margin-left: 4px;
+}
+
+.nav-bottom {
+    display: flex;
+}
+
+.p1 {
+    margin-left: 15px;
+    font-weight: 550;
+    color: white;
+}
+
+/* Hero Section */
+
+.hero-section {
+    background-image: url(hero.jpg);
+    height: 500px;
+    width: 100%;
+    background-size: cover;
+}
+
+/* Hero-Items */
+
+.hero-items {
+    height:  30vw;
+    width: 22vw;
+    min-width: 250px;
+    
+    background-color: white;
+    margin-top: 250px;
+    flex: 1 1 300px; /* Grow and shrink as needed */
+    max-width: 350px;
+}
+
+.hero-items-boss {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 20px;
+    padding: 20px;
+    flex-shrink: none;
+    flex-grow: none;
+}
+
+
+.first-img {
+    background-image: url(Game.jpg);
+    background-size: cover;
+    height: 280px;
+    width: 310px;
+    margin-left: 20px;
+    margin-top: 15px;
+}
+
+h2 {
+    margin:10px 0 0 10px ;
+}
+
+.hero-items p {
+    color: #007185;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.second-img {
+    background-image: url(Toys.jpg);
+    background-size: cover;
+    height: 280px;
+    width: 310px;
+    margin-left: 20px;
+    margin-top: 15px;
+}
+
+.third-img {
+    background-image: url(Dad.jpg);
+    background-size: cover;
+    height: 280px;
+    width: 310px;
+    margin-left: 20px;
+    margin-top: 15px;
+}
+
+.fourth-img {
+    background-image: url(kitchen.jpg);
+    background-size: cover;
+    height: 250px;
+    width: 310px;
+    margin-left: 20px;
+    margin-top: 15px;
+}
+
+
+.fifth-img {
+    background-image: url(flower.jpg);
+    background-size: cover;
+    height: 280px;
+    width: 310px;
+    margin-left: 20px;
+    margin-top: 15px;
+}
+
+
+.fifth {
+    margin-top: 25px;
+}
+
+.Sixth-img {
+    background-image: url(homeone.jpg);
+    height: 120px;
+    width: 310px;
+    margin-top: 10px;
+    margin-left: 20px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.Sixthsec-img {
+    background-image: url(hometwo.jpg);
+    height: 120px;
+    width: 310px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.seventh-img {
+    background-image: url(bed.jpg);
+    background-size: cover;
+    height: 280px;
+    width: 310px;
+    margin-left: 20px;
+    margin-top: 15px;
+}
+
+.eight-img {
+    background-image: url(girl.jpg);
+    background-size: cover;
+    height: 280px;
+    width: 310px;
+    margin-left: 20px;
+    margin-top: 15px;
+}
+
+.scroll-items {
+    height: 300px;
+    width: 95%;
+    margin-top: 25px;
+    margin-left: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: white;
+}    
+
+.scrollone {
+    background-image: url(one.jpg);
+    height: 150px;
+    width: 150px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-top: 10px;
+    margin-left: 50px;
+}
+
+.scrolltwo {
+    background-image: url(two.jpg);
+    height: 200px;
+    width: 185px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-top: 60px;
+}
+
+.scrollthree {
+    background-image: url(three.jpg);
+    height: 200px;
+    width: 185px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-top: 60px;
+}
+
+.scrollfour {
+    background-image: url(four.jpg);
+    height: 200px;
+    width: 185px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-top: 60px;
+    
+}
+
+.scrollfive {
+    background-image: url(five.jpg);
+    height: 200px;
+    width: 150px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-top: 60px;
+   
+}
+
+.scrollsix {
+    background-image: url(six.jpg);
+    height: 150px;
+    width: 150px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-top: 40px;
+    
+}
+
+.head2 {
+    position: absolute;
+    top: 1410px;
+    left: 70px;
+    font-size: 25px;
+} 
+
+.signin {
+    height: 200px;
+    background-color: white;
+    margin-left: 45px;
+    padding-left: 80px;
+    margin-right: 36px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.psignin , .asignin {
+    color: #0F1111;
+    margin-left: 45px;
+}
+
+.asignin {
+    padding-top: 2px;
+}
+
+button {
+    height: 30px;
+    width: 200px;
+    border-radius: 20px;
+    background-color: #fbff00;
+    margin-left: 550px;
+    margin-top: 15px;
+    border: none ;
+}
+
+.headtwo {
+    margin-left: 440px;
+    margin-top: 40px;
+}
+
+.lastsignin {
+    margin-left: 550px;
+    margin-top: 14px;
+}
+
+.newthing {
+    padding-top: 5px;
+    margin-left: 20px;
+}
+
+/* FOOTER */
+
+.footpanel1 {
+    background-color: #2c3746;
+    padding-bottom: 10px;
+    color: white;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footpanel1 p {
+    padding-top: 10px;
+}
+
+.footpanel1:hover {
+    background-color:#3a3c4e ;
+}
+
+.footpanel2 {
+    height: 450px;
+    background-color:#232F3e ;
+}
+
+.footpanel2, p ,a {
+    color: white;
+    display: block;
+    text-decoration: none;
+    padding-top: 10px;
+}
+
+.footpanel2-items {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 45px;
+}
+
+a {
+    font-size: 13px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.footpanel2 p {
+    font-size: 15px;
+    font-weight: 800;
+}
+
+.footpanel3 {
+    color: white;
+    
+}
+
+.footer-logo {
+    height: 200px;
+    background-color:#232F3e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-logo-items {
+    background-image: url(logo.png);
+    height: 180px;
+    width: 250px;
+    background-size: cover;
+}
+
+.copyright {
+    height: 100px;
+    background-color: #1b2633;
+    font-weight: 600;
+    text-align: center;
+    padding-top: 20px;
+}
+
